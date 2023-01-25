@@ -1,0 +1,14 @@
+start environment:
+pipenv --python 3.10
+
+open powershell:
+pipenv shell
+(prompt will not change but it will say shell is activated for Windows OS)
+
+install inside pipenv:
+pip install X 
+(where x is what you want to install)
+
+generate legacy requirements pip file, generates
+txt file called requirements.txt:
+pipenv run pip freeze > requirements.txt
